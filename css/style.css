@@ -43,12 +43,15 @@ main{
   width: 25vw;
   /* overflow: auto; */
   padding: 20px;
-  float: left;
-}
-
-#right{
   float: right;
 }
+
+.magenta .down{
+    position: absolute;
+    top: 45vh;
+    right:10vw;
+}
+
 
 main::after {
 content: "";
