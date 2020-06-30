@@ -3,22 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* per centrare il tutto */
 .container{
   width: 80vw;
   margin: auto;
 }
-
+/* intestazione (giallo) */
 header{
   height: 10vh;
   background-color: yellow;
   overflow: auto;
 }
-
+/* corpo del sito */
 main{
   /* background-color: lightgreen; */
   margin: 15px 0;
 }
+
+/* blocco sinistra */
 .magenta-left{
   background-color: magenta;
   height: 25vw;
@@ -28,6 +30,7 @@ main{
   float: left;
 }
 
+/* blocco centrale */
 .purple{
   display: inline-block;
   background-color: purple;
@@ -37,28 +40,32 @@ main{
   padding: 50px;
 }
 
+/* blocchi sinistr */
 .magenta{
   background-color: magenta;
   height: 15vw;
   width: 25vw;
   /* overflow: auto; */
   padding: 20px;
+
+}
+
+.left{
   float: right;
 }
 
-.magenta .down{
-    position: absolute;
-    top: 45vh;
-    right:10vw;
+.down{
+  margin-top: 20px;
 }
 
-
+/* fundamental */
 main::after {
 content: "";
 display: table;
 clear: both;
 }
 
+/* a che serve un commento qui */
 footer{
   background-color: blue;
   height: 10vh;
